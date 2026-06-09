@@ -20,10 +20,7 @@ import java.util.Scanner;
     }
 }*/
 
-
-import java.util.Scanner;
-
-public class ch55_takinginput {
+public class takinginput {
 
     static void methodName(int... numbers) {
 

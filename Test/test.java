@@ -1,9 +1,6 @@
 package Test;
 
-import Animal.Animal;
-import Animal.Rabbit;
 import oop.Student;
-import oop.Teacher;
 
 public class test {
    /* static String isEven(int x){
@@ -58,10 +55,12 @@ public class test {
 
         System.out.println(T.getAge());*/
 
+        Student student = new Student("sohan", 'A', 1, 18);
+        System.out.println(student.getGrade());
+        System.out.println(student.getAge());
+        System.out.println(student.getRoll_no());
+        System.out.println(student.getName());
 
-        student s = new student(1, "");
-        System.out.println(s.roll_no);
-        System.out.println(s.name);
     }
 
 }

@@ -2,6 +2,8 @@ package Test;
 
 import Animal.Animal;
 import Animal.Rabbit;
+import oop.Student;
+import oop.Teacher;
 
 public class test {
    /* static String isEven(int x){
@@ -38,12 +40,28 @@ public class test {
             //String result = isEven(i);
             System.out.println(i);
         }*/
-
+/*
        Animal myAnimal = new Animal();
         myAnimal.sayhello();
 
         Rabbit r = new Rabbit();
-        r.sayhello();
+        r.sayhello();*/
+
+
+        /*Teacher T = new Teacher(80000, 18, "ushudha", 1);
+
+        T.EmployeeID();
+
+        System.out.println(T.getSalary());
+
+        System.out.println(T.getName());
+
+        System.out.println(T.getAge());*/
+
+
+        student s = new student(1, "");
+        System.out.println(s.roll_no);
+        System.out.println(s.name);
     }
 
 }
